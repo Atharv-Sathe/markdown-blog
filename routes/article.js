@@ -1,6 +1,5 @@
 const express = require("express");
 const Article = require("../models/article");
-const pathReservations = require("tar/lib/path-reservations");
 const router = express.Router();
 
 router.get("/new", (req, res) => {
